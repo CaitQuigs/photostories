@@ -1,11 +1,11 @@
 <main>
-	<div class="header">
+	<div class="header" id="home">
 		<div class="container">
 			<div class="row">
 				<div class="content col-md-6 offset-md-6">
-					<h1 class="text-white mx-auto">Photostories</h1>
-					<h3 class="text-white mx-auto">Create and share your stories</h3>
-					<a class="btn btn-primary mx-auto" href="#" role="button">Learn more</a>
+					<h1 class="white-text mx-auto">Photostories</h1>
+					<h3 class="white-text mx-auto">Create and share your stories</h3>
+					<%= link_to "Learn more", about_path, class: "btn btn-primary mx-auto", role: "button" %>
 				</div>
 			</div>
 		</div>
@@ -21,11 +21,7 @@
 	<section class="discover">
 		<div class="container">
 			<h2 class="content">Discover Photostories</h2>
-			<a class="btn btn-primary" href="#" role="button">Learn more</a>
+			<%= link_to "Learn more", about_path, class: "btn btn-primary mx-auto", role: "button" %>
 		</div>
 	</section>
 </main>
-<footer>
-	<div class="container">
-		<p class="mx-auto"></p>
-</footer>
