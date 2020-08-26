@@ -1,0 +1,35 @@
+.header {
+	background-image: url("../images/photostories_images/field-photographer.jpg");
+	background-size: cover;
+	background-position: no-repeat center center;
+
+	height: 700px;
+}
+
+.header .content {
+	position: relative;
+	top: 200px;
+	text-align: center;
+}
+
+.content h1, h2, h3 {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.supporting, .discover {
+	padding: 80px 0;
+	text-align: center;
+}
+
+.supporting h2, p {
+	margin: 30px 0;
+}
+
+.secondary {
+	background-image: url("../images/photostories_images/waterfall-photographer.jpg");
+	background-size: cover;
+	background-position: no-repeat center center;
+	height: 500px;
+	overflow: hidden;
+}

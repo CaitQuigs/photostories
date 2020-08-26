@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+@import "~bootstrap/scss/bootstrap";
+@import "styles/menu";
+@import "styles/pages";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#page-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}

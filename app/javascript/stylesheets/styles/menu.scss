@@ -1,0 +1,46 @@
+#menu-button, #close-button {
+	cursor: pointer;
+	width: 25px;
+}
+
+#menu-button {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 30px;
+}
+
+#menu {
+	position: fixed;
+	left: -240px;
+	top: 0px;
+	width: 240px;
+	height: 100%;
+	background-color: rgba(44, 44, 44, 0.75);
+	z-index: 10;
+}
+
+#menu-list, #close-button {
+	display: inline;
+}
+
+#menu li a {
+	padding: 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+#close-button {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+
+#menu-list li {
+	padding: 20px 0 20px 20px;
+}
+
+#menu-list li:first-of-type {
+	padding-top: 70px;
+}
