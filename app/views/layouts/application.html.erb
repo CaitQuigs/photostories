@@ -21,6 +21,9 @@
     <div id="page-content">
       <%= image_tag 'https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/menu-white.svg', alt: "Open Menu", id: "menu-button"  %>
       <%= yield %>
+
+      <%= render partial: "shared/footer" %>
+
     </div>
 
     <!-- Boostrap JS scripts -->

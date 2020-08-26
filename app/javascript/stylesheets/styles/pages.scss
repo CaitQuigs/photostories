@@ -1,9 +1,17 @@
 .header {
-	background-image: url("../images/photostories_images/field-photographer.jpg");
 	background-size: cover;
-	background-position: no-repeat center center;
-
+	background-position: center 80%;
+	background-repeat: no-repeat;
 	height: 700px;
+	width: 100%;
+}
+
+#home {
+	background-image: url("../images/photostories_images/field-photographer.jpg");
+}
+
+#about {
+	background-image: url("../images/photostories_images/sunset-photographer.jpg");
 }
 
 .header .content {
@@ -15,6 +23,11 @@
 .content h1, h2, h3 {
 	padding: 15px 0;
 	text-align: center;
+}
+
+.white-text {
+	color: #FFF;
+	text-shadow: 2px 2px 8px #000000;
 }
 
 .supporting, .discover {
@@ -29,7 +42,8 @@
 .secondary {
 	background-image: url("../images/photostories_images/waterfall-photographer.jpg");
 	background-size: cover;
-	background-position: no-repeat center center;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	height: 500px;
-	overflow: hidden;
+	width: 100%;
 }
